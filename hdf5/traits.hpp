@@ -26,7 +26,7 @@
 #include <boost/cstdint.hpp>
 #include <exception>
 
-#include <mpi.h>
+//#include <mpi.h>
 
 namespace hdf {
 

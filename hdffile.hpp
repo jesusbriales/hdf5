@@ -20,7 +20,7 @@ namespace hdf {
      */
     HDFFile(const boost::filesystem::path & path, Flags flags = none) {
       file = HDFImpl::open(path, flags==truncate);
-      initFileGroup(*file);
+	  this->initFileGroup(*file);
     };
 
     ~HDFFile() {
